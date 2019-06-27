@@ -27,7 +27,6 @@ public class PriceHotelService {
 
     public void processTravels(LocalDate today) {
 
-        logger.info("numberOfMonths: " + numberOfMonths);
         logger.info("Starting processing travels");
 
         try {

@@ -38,8 +38,8 @@ public class HotelStubApplication {
 		SpringApplication.run(HotelStubApplication.class, args);
 	}
 
-	//@Scheduled(cron = "${cronTimer}")
-	@Scheduled(fixedRate=4500000)
+	@Scheduled(cron = "${cronTimer}")
+	//@Scheduled(fixedRate=4500000)
 	@Async("threadPoolExecutor")
 	public void processTravelsWrapper() {
 		service.processTravels(LocalDate.now());
