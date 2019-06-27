@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>su.ecso</groupId>
 	<artifactId>hotel-stub</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>hotel-stub</name>
 	<description>Stub for generating hotel prices to DB</description>
 
